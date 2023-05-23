@@ -5,8 +5,8 @@
 
 
 .cabeçalho {
-    background-color: dimgray;
-   color: rgb(8, 8, 8);
+    background-color: #424E60;
+   color: rgb(255, 255, 255);
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -21,4 +21,19 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.escola-imagem{
+    width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E60,#90a6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escola-div-conteudo{
+    width: 45%
 }
